@@ -125,7 +125,6 @@ AI_RESUME_ANALYZER/
 │── README.md
 
 
-
 **🔮 Future Improvements**
 
 Add multi-language support
