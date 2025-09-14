@@ -99,31 +99,31 @@ GET /api/health
 
 Health check endpoint
 
-**📂 Project Structure**
+## 📂 Project Structure
 
+```bash
 AI_RESUME_ANALYZER/
 │── backend/
-│ ├── app.py
-│ ├── requirements.txt
-│ ├── uploads/ # temporary resume uploads (gitignored)
-│ └── .env # environment variables (gitignored)
+│   ├── app.py
+│   ├── requirements.txt
+│   ├── uploads/          # temporary resume uploads (gitignored)
+│   └── .env              # environment variables (gitignored)
 │
 │── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── UploadForm.jsx
-│ │ │ ├── ResultCard.jsx
-│ │ │ └── LoadingSpinner.jsx
-│ │ ├── pages/
-│ │ │ └── UploadPage.jsx
-│ │ ├── App.jsx
-│ │ └── main.jsx
-│ ├── package.json
-│ └── vite.config.js
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── UploadForm.jsx
+│   │   │   ├── ResultCard.jsx
+│   │   │   └── LoadingSpinner.jsx
+│   │   ├── pages/
+│   │   │   └── UploadPage.jsx
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   ├── package.json
+│   └── vite.config.js
 │
 │── .gitignore
 │── README.md
-
 
 **🔮 Future Improvements**
 
