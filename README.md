@@ -38,9 +38,10 @@ Sentence Transformers (all-MiniLM-L6-v2)
 
 PDFMiner & python-docx for resume parsing
 
-**Optional: OpenAI GPT (enhanced analysis)
-**
+**Optional: OpenAI GPT (enhanced analysis)**
+
 **⚙️ Installation & Setup**
+
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/AI_RESUME_ANALYZER.git
 cd AI_RESUME_ANALYZER
@@ -99,25 +100,26 @@ GET /api/health
 Health check endpoint
 
 **📂 Project Structure**
+
 AI_RESUME_ANALYZER/
 │── backend/
-│   ├── app.py
-│   ├── requirements.txt
-│   ├── uploads/ (ignored in git)
-│   └── .env
+│ ├── app.py
+│ ├── requirements.txt
+│ ├── uploads/ # temporary resume uploads (gitignored)
+│ └── .env # environment variables (gitignored)
 │
 │── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── UploadForm.jsx
-│   │   │   ├── ResultCard.jsx
-│   │   │   └── LoadingSpinner.jsx
-│   │   ├── pages/
-│   │   │   └── UploadPage.jsx
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   ├── package.json
-│   └── vite.config.js
+│ ├── src/
+│ │ ├── components/
+│ │ │ ├── UploadForm.jsx
+│ │ │ ├── ResultCard.jsx
+│ │ │ └── LoadingSpinner.jsx
+│ │ ├── pages/
+│ │ │ └── UploadPage.jsx
+│ │ ├── App.jsx
+│ │ └── main.jsx
+│ ├── package.json
+│ └── vite.config.js
 │
 │── .gitignore
 │── README.md
